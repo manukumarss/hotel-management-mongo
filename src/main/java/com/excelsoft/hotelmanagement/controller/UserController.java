@@ -55,8 +55,8 @@ public class UserController {
 //		otpmap.put(key, otp);
 //	}
 	
-	@GetMapping(value="/",produces = MediaType.APPLICATION_JSON_VALUE)
-	public String get(){
+//	@GetMapping(value="/",produces = MediaType.APPLICATION_JSON_VALUE)
+//	public String get(){
 		return "Please give url as Spring-Boot-Rest/user/get";
 		
 	}
