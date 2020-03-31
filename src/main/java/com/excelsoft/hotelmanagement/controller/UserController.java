@@ -51,9 +51,9 @@ public class UserController {
 		return otpmap;
 	}
 
-	public void addOtpmap(String key, String otp) {
-		otpmap.put(key, otp);
-	}
+//	public void addOtpmap(String key, String otp) {
+//		otpmap.put(key, otp);
+//	}
 	
 	@GetMapping(value="/",produces = MediaType.APPLICATION_JSON_VALUE)
 	public String get(){
