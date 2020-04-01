@@ -45,9 +45,9 @@ public class UserController {
 	@Autowired
 	private UserRepository userRepo;
 
-	private Map<String, String> otpmap = ExpiringMap.builder().expiration(10, TimeUnit.MINUTES).build();
-
-	public Map<String, String> getOtpmap() {
+//	private Map<String, String> otpmap = ExpiringMap.builder().expiration(10, TimeUnit.MINUTES).build();
+//
+//	public Map<String, String> getOtpmap() {
 		return otpmap;
 	}
 
